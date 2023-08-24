@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Getting_started_with_jetpack_Sam</string>
+    <string name="title_activity_loginpage">Loginpage</string>
+    <string name="title_activity_signup">SignupActivity</string>
+    <string name="title_activity_image">ImageActivity</string>
+</resources>

@@ -1,0 +1,11 @@
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/abstractsam/AndroidStudio_Sam.git
+git push -u origin main
+
+---after deployment---
+git add .
+git commit -m ""
+git push -u origin main
