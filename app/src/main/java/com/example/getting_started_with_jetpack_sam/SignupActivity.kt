@@ -38,6 +38,8 @@ import com.example.getting_started_with_jetpack_sam.ui.theme.Getting_started_wit
 //Phone Number
 //Email
 //Password
+
+
 class SignupActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -131,7 +133,6 @@ fun SignupInterface(){
 
         Button(onClick = { /*TODO*/ },
             modifier = Modifier.fillMaxWidth()
-
 
 
         ) {

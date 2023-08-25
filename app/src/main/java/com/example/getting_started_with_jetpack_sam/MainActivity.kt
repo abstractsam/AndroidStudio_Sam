@@ -16,6 +16,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
+import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
 import androidx.compose.material3.MaterialTheme
@@ -62,21 +63,52 @@ fun Home(){
         Text(text = "Welcome to Jetpack", color = Color.Black, fontSize = 20.sp)
         Spacer(modifier = Modifier.height(12.dp))
 
-    }
+        Button(onClick = { /*TODO*/ },
+            shape = RoundedCornerShape(5.dp),
+            modifier = Modifier.width(300.dp)
 
-    var login = LocalContext.current
 
-        Button(onClick = {
-            login.startActivity(Intent(login,Loginpage::class.java))
+
+        ) {
+            Text(text = "LOGIN")
+        }
+
+
+        var scroll = LocalContext.current
+
+         Button(onClick = {
+        scroll.startActivity(Intent(scroll,ScrollListview::class.java))
 
         },
-            shape = RoundedCornerShape(5.dp),
-            modifier = Modifier.fillMaxWidth()
-        ){
+         shape = RoundedCornerShape(5.dp),
+         modifier = Modifier.width(300.dp)
+         ){
 
-            Text(text = "LOGIN", color = Color.Black)
+          Text(text = "GO TO SCROLL", color = Color.White)
 
         }
+
+
+
+    }
+
+
+
+
+
+    //var login = LocalContext.current
+
+       // Button(onClick = {
+            //login.startActivity(Intent(login,Loginpage::class.java))
+
+        //},
+           // shape = RoundedCornerShape(5.dp),
+           // modifier = Modifier.fillMaxWidth()
+       // ){
+
+          //  Text(text = "LOGIN", color = Color.Black)
+
+        //}
 
 }
 
