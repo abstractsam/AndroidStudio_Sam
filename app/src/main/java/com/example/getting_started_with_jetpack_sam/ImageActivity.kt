@@ -44,16 +44,11 @@ fun ImagePage(painterResource: Painter, contentDescription: Nothing?) {
                 .fillMaxSize(),
 
 
-
-
                 //.size(200.dp)
                 //.border(3.dp, Color.Red)
 
-
         )
     }
-
-
 
 }
 

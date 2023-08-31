@@ -84,6 +84,7 @@ fun SignupInterface(){
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(text = "Please Signup", color = Color.Green, fontSize = 20.sp)
+
         TextField(value = firstname,
             onValueChange = { firstname },
             modifier = Modifier.fillMaxWidth(),
@@ -99,6 +100,7 @@ fun SignupInterface(){
             modifier = Modifier.fillMaxWidth(),
             label = { Text(text = "Lastname")},
             leadingIcon = { Icon(Icons.Default.Person, contentDescription = "lastnameicon")}
+
 
 
         )
